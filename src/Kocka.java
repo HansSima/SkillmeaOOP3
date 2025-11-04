@@ -1,8 +1,4 @@
-public class Kocka {
-
-    private String rasa;
-    private float hmotnost;
-    private boolean jeSamec;
+public class Kocka extends Zvire {
     private int pocetUlovenychRyb;
 
     Kocka(String rasa, float hmotnost, boolean jeSamec, int pocetUlovenychRyb){
@@ -10,6 +6,10 @@ public class Kocka {
         this.hmotnost = hmotnost;
         this.jeSamec = jeSamec;
         this.pocetUlovenychRyb = pocetUlovenychRyb;
+    }
+
+    public void vydejZvuk(){
+        System.out.println("Mnau mnau");
     }
 
 }

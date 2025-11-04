@@ -1,7 +1,4 @@
-public class Pes {
-    private String rasa;
-    private float hmotnost;
-    private boolean jeSamec;
+public class Pes extends Zvire {
     private int pocetUlovenychKocek;
 
     Pes(String rasa, float hmotnost, boolean jeSamec, int pocetUlovenychKocek){
@@ -9,10 +6,6 @@ public class Pes {
         this.hmotnost = hmotnost;
         this.jeSamec = jeSamec;
         this.pocetUlovenychKocek = pocetUlovenychKocek;
-    }
-
-    public void vydejZvuk(){
-        System.out.println("Haf haf");
     }
 
 }

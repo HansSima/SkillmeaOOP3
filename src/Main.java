@@ -28,11 +28,11 @@ public class Main {
         float cenaKauflandu = kaufland.vypocetCenyDomu(2, "Kaufland");
         System.out.println(cenaKauflandu);*/
 
-        Pes alik = new Pes("Nemecky ovcak", 12.3f, true, 3);
+        /*Pes alik = new Pes("Nemecky ovcak", 12.3f, true, 3);
         alik.vydejZvuk();
 
         Kocka mourek = new Kocka("Siamska kocka", 6f, false, 2);
-
+        mourek.vydejZvuk();*/
 
     }
 }
