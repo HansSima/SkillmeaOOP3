@@ -1,4 +1,4 @@
-
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,9 +13,11 @@ public class Main {
         dumZajicu.pocetPoschodi = 2;
         dumZajicu.rozloha = 853.6f;
 
-        dumNovaku.vypocetCenyDomu();
-        dumZajicu.vypocetCenyDomu();
+        dumNovaku.vypocetCenyDomu(1, "Novakovi");
+        dumZajicu.vypocetCenyDomu(3, "Zajicovi");
 
+        /*Random nahGen = new Random();
+        nahGen.nextInt(1, 7);*/
 
     }
 }
