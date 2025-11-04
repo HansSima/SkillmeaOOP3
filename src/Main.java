@@ -34,5 +34,7 @@ public class Main {
         Kocka mourek = new Kocka("Siamska kocka", 6f, false, 2);
         mourek.vydejZvuk();*/
 
+
+
     }
 }

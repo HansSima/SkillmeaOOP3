@@ -8,6 +8,7 @@ public class Kocka extends Zvire {
         this.pocetUlovenychRyb = pocetUlovenychRyb;
     }
 
+    @Override
     public void vydejZvuk(){
         System.out.println("Mnau mnau");
     }
