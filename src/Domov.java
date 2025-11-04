@@ -26,7 +26,7 @@ public class Domov {
         return pocetOken;
     }
 
-    //Setter pro ziskani dat v private field
+    //Setter pro prepis dat v private field
     public void setPocetOken(int novyPocetOken){
         pocetOken = novyPocetOken;
     }
