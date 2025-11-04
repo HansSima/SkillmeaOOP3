@@ -1,15 +1,17 @@
 
 public class Domov {
     //Toto jsou vlastnosti (fields)
-    float rozloha;
-    int pocetOken;
-    String material;
-    int pocetPoschodi;
-    boolean jeAlarmZapnuty;
+    private float rozloha;
+    private int pocetOken;
+    private String material;
+    private int pocetPoschodi;
+    private boolean jeAlarmZapnuty;
 
     //Toto je konstruktor
-    Domov(){
-        System.out.println("Toto se zavola pri vytvoreni noveho objektu");
+    Domov(float roz, int pocOken, int pocPoschodi){
+        rozloha = roz;
+        pocetOken = pocOken;
+        pocetPoschodi = pocPoschodi;
     }
 
     //Toto je metoda
