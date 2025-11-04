@@ -3,7 +3,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         //Vytvoreni novych objektu z tridy Domov
-        Domov dumNovaku = new Domov(536f, 10, 3);
+        /*Domov dumNovaku = new Domov(536f, 10, 3);
         Domov dumZajicu = new Domov(423f, 8, 2);
         Domov dumKraliku = new Domov(356f, 6, 4);
 
@@ -26,7 +26,9 @@ public class Main {
         Obchod globus = new Obchod(3800f, 3, 20);
 
         float cenaKauflandu = kaufland.vypocetCenyDomu(2, "Kaufland");
-        System.out.println(cenaKauflandu);
+        System.out.println(cenaKauflandu);*/
+
+
 
     }
 }
