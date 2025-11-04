@@ -21,5 +21,11 @@ public class Main {
         System.out.println(pocetOkenNovaku);
         System.out.println(cenaDomuZajicu + cenaDomuNovaku);
 
+
+
+
+
+
+
     }
 }
