@@ -21,5 +21,14 @@ public class Domov {
         return vypocet;
     }
 
+    //Getter pro ziskani dat v private fields
+    public int getPocetOken(){
+        return pocetOken;
+    }
+
+    //Setter pro ziskani dat v private field
+    public void setPocetOken(int novyPocetOken){
+        pocetOken = novyPocetOken;
+    }
 
 }

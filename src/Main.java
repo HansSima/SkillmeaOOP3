@@ -11,6 +11,10 @@ public class Main {
         float cenaDomuZajicu = dumZajicu.vypocetCenyDomu(3, "Zajicovi");
         float cenaDomuKraliku = dumKraliku.vypocetCenyDomu(2, "Kralikovi");
 
+        dumNovaku.setPocetOken(8);
+        int pocetOkenNovaku = dumNovaku.getPocetOken();
+
+        System.out.println(pocetOkenNovaku);
         System.out.println(cenaDomuZajicu + cenaDomuNovaku);
 
     }
