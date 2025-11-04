@@ -1,10 +1,7 @@
 
-public class Domov {
+public class Domov extends Stavba {
     //Toto jsou vlastnosti (fields)
-    private float rozloha;
-    private int pocetOken;
     private String material;
-    private int pocetPoschodi;
     private boolean jeAlarmZapnuty;
 
     //Toto je konstruktor
@@ -12,13 +9,6 @@ public class Domov {
         this.rozloha = rozloha;
         this.pocetOken = pocetOken;
         this.pocetPoschodi = pocetPoschodi;
-    }
-
-    //Toto je metoda
-    public float vypocetCenyDomu(int lukrativniOblast, String jmenoRodiny){
-        System.out.println(jmenoRodiny);
-        float vypocet = lukrativniOblast* (pocetOken*800 + rozloha*840);
-        return vypocet;
     }
 
     //Getter pro ziskani dat v private fields
