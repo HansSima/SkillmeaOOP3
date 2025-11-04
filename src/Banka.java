@@ -12,6 +12,13 @@ public class Banka {
         this.poplatky = poplatky;
     }
 
+    public float vypocetSporicihoUctu(){
+        konecnaCastka = pocatecniVklad;
+        for(int i = 0; i < roky; i++){
+            konecnaCastka += konecnaCastka * (urokovaSazba/100) - poplatky;
+        }
+        return konecnaCastka;
+    }
 
 
 }

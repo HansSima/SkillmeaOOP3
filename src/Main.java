@@ -34,7 +34,9 @@ public class Main {
         Kocka mourek = new Kocka("Siamska kocka", 6f, false, 2);
         mourek.vydejZvuk();*/
 
-
-
+        Banka mBank = new Banka(10, 1000, 1, 0);
+        System.out.println(mBank.vypocetSporicihoUctu());
+        Banka moneta = new Banka(10, 1000, 3, 20);
+        System.out.println(mBank.vypocetSporicihoUctu() + "-" +moneta.vypocetSporicihoUctu());
     }
 }
