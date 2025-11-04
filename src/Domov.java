@@ -8,8 +8,11 @@ public class Domov {
 
 
 
-    public void vypocetCenyDomu(int lukrativniOblast, String jmenoRodiny){
-        System.out.println(lukrativniOblast* (pocetOken*800 + rozloha*840));
+    public float vypocetCenyDomu(int lukrativniOblast, String jmenoRodiny){
+        System.out.println(jmenoRodiny);
+        float vypocet = lukrativniOblast* (pocetOken*800 + rozloha*840);
+        return vypocet;
     }
+
 
 }
