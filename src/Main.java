@@ -31,6 +31,7 @@ public class Main {
         Pes alik = new Pes("Nemecky ovcak", 12.3f, true, 3);
         alik.vydejZvuk();
 
+        Kocka mourek = new Kocka("Siamska kocka", 6f, false, 2);
 
 
     }
