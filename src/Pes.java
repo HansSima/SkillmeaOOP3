@@ -11,5 +11,8 @@ public class Pes {
         this.pocetUlovenychKocek = pocetUlovenychKocek;
     }
 
+    public void vydejZvuk(){
+        System.out.println("Haf haf");
+    }
 
 }
