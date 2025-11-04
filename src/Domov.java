@@ -8,10 +8,10 @@ public class Domov {
     private boolean jeAlarmZapnuty;
 
     //Toto je konstruktor
-    Domov(float roz, int pocOken, int pocPoschodi){
-        rozloha = roz;
-        pocetOken = pocOken;
-        pocetPoschodi = pocPoschodi;
+    Domov(float rozloha, int pocetOken, int pocetPoschodi){
+        this.rozloha = rozloha;
+        this.pocetOken = pocetOken;
+        this.pocetPoschodi = pocetPoschodi;
     }
 
     //Toto je metoda
